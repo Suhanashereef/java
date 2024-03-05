@@ -1,0 +1,42 @@
+class cpu{
+
+double price,
+
+cpu(double price)
+
+this.price price:
+
+1
+
+public void printinfo() System.out.println("cpu price is:" + price);
+
+class processor
+
+int core:
+
+String manufacture:
+
+processor(int core.String manufacture){
+
+this.core-core.
+
+this manufacture manufacture:
+
+1
+
+public void printinfo();
+1
+
+public static void main(String args[]){
+
+cpu cpul new cpu(300);
+
+cpu.processor processorl cpul. new processor(4,"intel");
+
+cpu.ram ram1= new cpu.ram(8,"corsarir");
+
+cpul printinfo();
+
+processorl printinfo();
+
+raml.printinfo();
