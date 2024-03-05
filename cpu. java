@@ -1,42 +1,52 @@
-class cpu{
+class cpu {
+    double price;
 
-double price,
+    cpu(double price) {
+        this.price = price;
+    }
 
-cpu(double price)
+    public void printinfo() {
+        System.out.println("cpu price:" + price);
 
-this.price price:
+    }
 
-1
+    class processor {
+        int core;
+        String manufacture;
 
-public void printinfo() System.out.println("cpu price is:" + price);
+        processor(int core, String manufacture) {
+            this.core = core;
+            this.manufacture = manufacture;
+        }
 
-class processor
+        public void printinfo() {
+            System.out.println("Cores are :" + core);
+            System.out.println("manufacture :" + manufacture);
+        }
+    }
 
-int core:
+    class ram {
+        int memory;
+        String manufacture;
 
-String manufacture:
+        ram(int memory, String manufacture) {
+            this.memory = memory;
+            this.manufacture = manufacture;
+        }
 
-processor(int core.String manufacture){
-
-this.core-core.
-
-this manufacture manufacture:
-
-1
-
-public void printinfo();
-1
-
-public static void main(String args[]){
-
-cpu cpul new cpu(300);
-
-cpu.processor processorl cpul. new processor(4,"intel");
-
-cpu.ram ram1= new cpu.ram(8,"corsarir");
-
-cpul printinfo();
-
-processorl printinfo();
-
-raml.printinfo();
+        public void printinfo() {
+            System.out.println("ram memory: " + memory + " GB");
+            System.out.println("ram manufacture: " + manufacture);
+        }
+    }
+}
+public class CPUPR{
+    public static void main(String[] args) {
+        cpu cpu1 = new cpu(300);
+        cpu.processor processor1 = cpu1.new processor(4, "intel");
+        cpu.ram ram1 = cpu1.new ram(8, "corsarir");
+        cpu1.printinfo();
+        processor1.printinfo();
+        ram1.printinfo();
+    }
+}
