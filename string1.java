@@ -18,11 +18,10 @@ class string
 
 output
 ------
-  C:\Users\mlm\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Users\mlm\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=65285:C:\Users\mlm\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\mlm\IdeaProjects\add.java\out\production\add.java String_1
-The string is java programming lab
-Length of the String is 20
-Character at second and fourth position is a,a
-The sub string using start index only is programming lab
-The sub string using start index only is java
+ C:\Users\mlm\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Users\mlm\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=65400:C:\Users\mlm\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\mlm\IdeaProjects\add.java\out\production\add.java string
+The string does start with HELLO
 
 Process finished with exit code 0
+
+
+
